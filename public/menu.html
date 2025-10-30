@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Chez Ndéye Fall</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- fontawesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Navigation (identique à index.html) -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo.png" alt="Chez Ndéye Fall" height="40">
+                Chez Ndéye Fall
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="commandes.html">Commandes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galerie.html">Galerie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Notre Menu</h1>
+            <p>Découvrez nos délicieux plats sénégalais</p>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="nav nav-pills justify-content-center mb-5" id="menuTabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="entrees-tab" data-bs-toggle="tab" data-bs-target="#entrees" type="button" role="tab">Entrées</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="plats-tab" data-bs-toggle="tab" data-bs-target="#plats" type="button" role="tab">Plats Principaux</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="desserts-tab" data-bs-toggle="tab" data-bs-target="#desserts" type="button" role="tab">Desserts</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="boissons-tab" data-bs-toggle="tab" data-bs-target="#boissons" type="button" role="tab">Boissons</button>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content" id="menuTabsContent">
+                        <!-- Entrées -->
+                        <div class="tab-pane fade show active" id="entrees" role="tabpanel">
+                            <div class="row" id="entrees-container">
+                                <!-- Les entrées seront chargées dynamiquement via JS -->
+                            </div>
+                        </div>
+
+                        <!-- Plats Principaux -->
+                        <div class="tab-pane fade" id="plats" role="tabpanel">
+                            <div class="row" id="plats-container">
+                                <!-- Les plats seront chargées dynamiquement via JS -->
+                            </div>
+                        </div>
+
+                        <!-- Desserts -->
+                        <div class="tab-pane fade" id="desserts" role="tabpanel">
+                            <div class="row" id="desserts-container">
+                                <!-- Les desserts seront chargées dynamiquement via JS -->
+                            </div>
+                        </div>
+
+                        <!-- Boissons -->
+                        <div class="tab-pane fade" id="boissons" role="tabpanel">
+                            <div class="row" id="boissons-container">
+                                <!-- Les boissons seront chargées dynamiquement via JS -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (identique à index.html) -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5>Chez Ndéye Fall</h5>
+                    <p>Restaurant traiteur proposant des plats authentiques sénégalais depuis plus de 10 ans.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Liens rapides</h5>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="commandes.html">Commandes</a></li>
+                        <li><a href="galerie.html">Galerie</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Contact</h5>
+                    <p>
+                        Cité de l'émergence Addoha<br>
+                        Immeuble 3 / 2ème Etage App. 6<br>
+                        Tél: +221 78 166 47 88<br>
+                        +221 77 031 29 09
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Chez Ndéye Fall. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
