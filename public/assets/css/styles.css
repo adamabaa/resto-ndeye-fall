@@ -198,6 +198,48 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Page Header */
+
+/* WhatsApp button */
+.whatsapp-btn {
+    background-color: #25D366;
+    border-color: #25D366;
+    color: #fff;
+    padding: 0.45rem 0.9rem;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.whatsapp-btn i { font-size: 1.05rem; }
+.whatsapp-btn:hover {
+    background-color: #1ebe57;
+    border-color: #1ebe57;
+    transform: translateY(-2px);
+}
+
+/* Floating WhatsApp (mobile) */
+.whatsapp-float {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: #25D366;
+    color: #fff;
+    border-radius: 50px;
+    padding: 0.6rem 0.9rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+    z-index: 1050;
+    text-decoration: none;
+}
+.whatsapp-float i { font-size: 1.2rem; }
+.whatsapp-float .whatsapp-text { display: none; }
+
+@media (min-width: 576px) {
+    .whatsapp-float .whatsapp-text { display: inline; }
+}
+
 .page-header {
     padding: 8rem 0 4rem;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/hero-bg.png') center/cover no-repeat;
