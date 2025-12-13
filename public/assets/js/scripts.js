@@ -6,21 +6,21 @@ const menuData = {
             "nom": "Accras de Morue",
             "description": "Beignets de morue épicés, servis avec une sauce piquante.",
             "prix": "3500 FCFA",
-            "image": "/assets/images/plat7.png"
+            "image": "assets/images/plat13.webp"
         },
         {
             "id": 2,
             "nom": "Salade César Sénégalaise",
             "description": "Salade fraîche avec laitue, croûtons, parmesan et une touche d'épices locales.",
             "prix": "4000 FCFA",
-            "image": "assets/images/plat8.png"
+            "image": "assets/images/plat8.webp"
         },
         {
             "id": 3,
             "nom": "Boulettes de Viande",
             "description": "Boulettes de bœuf épicées, servies avec une sauce tomate maison.",
             "prix": "4500 FCFA",
-            "image": "assets/images/plat9.png"
+            "image": "assets/images/plat9.webp"
         }
     ],
     "plats": [
@@ -29,28 +29,28 @@ const menuData = {
             "nom": "Thiébou Dieune",
             "description": "Riz au poisson avec légumes et sauce tomate, plat national sénégalais.",
             "prix": "8000 FCFA",
-            "image": "assets/images/plat1.png"
+            "image": "assets/images/plat1.webp"
         },
         {
             "id": 5,
             "nom": "Yassa Poulet",
             "description": "Poulet mariné au citron et oignons, servi avec du riz blanc.",
             "prix": "7500 FCFA",
-            "image": "assets/images/plat2.png"
+            "image": "assets/images/plat2.webp"
         },
         {
             "id": 6,
             "nom": "Mafé",
             "description": "Ragoût de viande dans une sauce à base d'arachide, accompagné de riz.",
             "prix": "7000 FCFA",
-            "image": "assets/images/plat3.png"
+            "image": "assets/images/plat4.webp"
         },
         {
             "id": 7,
             "nom": "Poulet DG",
             "description": "Poulet sauté avec des légumes, plantains et épices.",
             "prix": "8500 FCFA",
-            "image": "assets/images/plat4.png"
+            "image": "assets/images/plat11.webp"
         }
     ],
     "desserts": [
@@ -59,14 +59,14 @@ const menuData = {
             "nom": "Thiakry",
             "description": "Dessert à base de mil, yaourt et fruits secs.",
             "prix": "3000 FCFA",
-            "image": "assets/images/plat5.png"
+            "image": "assets/images/plat10.webp"
         },
         {
             "id": 9,
             "nom": "Bananes Flambées",
             "description": "Bananes caramélisées au rhum, servies avec une boule de glace vanille.",
             "prix": "3500 FCFA",
-            "image": "assets/images/plat6.png"
+            "image": "assets/images/plat12.webp"
         }
     ],
     "boissons": [
@@ -75,21 +75,21 @@ const menuData = {
             "nom": "Bissap",
             "description": "Jus d'hibiscus frais, rafraîchissant et naturel.",
             "prix": "2000 FCFA",
-            "image": "assets/images/plat1.png"
+            "image": "assets/images/bissap.webp"
         },
         {
             "id": 11,
             "nom": "Bouye",
             "description": "Jus de fruit du baobab, riche en vitamines.",
             "prix": "2500 FCFA",
-            "image": "assets/images/plat2.png"
+            "image": "assets/images/bouye.webp"
         },
         {
             "id": 12,
             "nom": "Café Touba",
             "description": "Café sénégalais épicé, traditionnel et aromatique.",
             "prix": "1500 FCFA",
-            "image": "assets/images/plat3.png"
+            "image": "assets/images/cafe.webp"
         }
     ]
 };
@@ -97,24 +97,24 @@ const menuData = {
 // Données de la galerie (simulées)
 const galleryData = {
     "plats": [
-        {"id": 2, "image": "assets/images/plat2.png", "title": "Yassa Poulet"},
-        {"id": 1, "image": "assets/images/plat1.png", "title": "Thiébou Dieune"},
-        {"id": 3, "image": "assets/images/plat3.png", "title": "Mafé"},
-        {"id": 4, "image": "assets/images/plat4.png", "title": "Accras de Morue"},
-        {"id": 5, "image": "assets/images/plat5.png", "title": "Salade César"},
-        {"id": 6, "image": "assets/images/plat6.png", "title": "Thiakry"}
+        {"id": 2, "image": "assets/images/plat2.webp", "title": "Yassa Poulet"},
+        {"id": 1, "image": "assets/images/plat1.webp", "title": "Thiébou Dieune"},
+        {"id": 3, "image": "assets/images/plat3.webp", "title": "Mafé"},
+        {"id": 4, "image": "assets/images/plat13.webp", "title": "Accras de Morue"},
+        {"id": 5, "image": "assets/images/plat5.webp", "title": "Salade César"},
+        {"id": 6, "image": "assets/images/plat6.webp", "title": "Thiakry"}
     ],
     "restaurant": [
-        {"id": 7, "image": "assets/images/restaurant1.png", "title": "Salle principale"},
-        {"id": 8, "image": "assets/images/restaurant2.png", "title": "Terrasse"},
+        {"id": 7, "image": "assets/images/restaurant1.webp", "title": "Salle principale"},
+        {"id": 8, "image": "assets/images/restaurant2.webp", "title": "Terrasse"},
         {"id": 9, "image": "assets/images/plat1.png", "title": "Cuisine"},
         {"id": 10, "image": "assets/images/plat2.png", "title": "Bar"}
     ],
     "evenements": [
-        {"id": 11, "image": "assets/images/plat3.png", "title": "Mariage"},
-        {"id": 12, "image": "assets/images/plat4.png", "title": "Anniversaire"},
-        {"id": 13, "image": "assets/images/plat5.png", "title": "Buffet d'entreprise"},
-        {"id": 14, "image": "assets/images/plat6.png", "title": "Dîner en famille"}
+        {"id": 11, "image": "assets/images/plat3.webp", "title": "Mariage"},
+        {"id": 12, "image": "assets/images/plat4.webp", "title": "Anniversaire"},
+        {"id": 13, "image": "assets/images/plat5.webp", "title": "Buffet d'entreprise"},
+        {"id": 14, "image": "assets/images/plat6.webp", "title": "Dîner en famille"}
     ]
 };
 
