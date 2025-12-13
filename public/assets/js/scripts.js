@@ -313,3 +313,16 @@ document.addEventListener('DOMContentLoaded', function() {
     setupForms();
     setupScrollAnimations();
 });
+
+// Loader : cacher après que tous les assets soient chargés
+window.addEventListener('load', function() {
+    const loader = document.getElementById('site-loader');
+    if (loader) {
+        // ajouter classe sur body pour appliquer transition CSS
+        document.body.classList.add('loaded');
+        // retirer l'élément après la transition
+        setTimeout(() => {
+            if (loader.parentNode) loader.parentNode.removeChild(loader);
+        }, 700);
+    }
+});
